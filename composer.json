@@ -1,5 +1,5 @@
 {
-    "name": "teampro/language-translation-scanner",
+    "name": "teamprodev/laravel-translator",
     "description": "An elegant way to scan all text of blade files and send to database them.",
     "type": "library",
     "license": "MIT",
@@ -13,7 +13,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "TeamPro\\TranslateScanner\\": "src/"
+            "Teamprodev\\Translator\\": "src/"
         }
     }
 }
