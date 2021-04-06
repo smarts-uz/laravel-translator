@@ -43,16 +43,21 @@ Scan it with in cmd once
 php artisan scan:translation
 ```
 
-All formats of text must be used like this 
-```html 
- my_view.blade.php
+All formats of text must be used like this
+###### my_view.blade.php
+```html
  <p>{{trans("your any texts here")}}</p>
- index.html
+```
+###### index.html
+```html
+ <p>{{trans("your any texts here")}}</p>
+ 
  <p> <?php trans("your any texts here"); ?> </p>
- MyController.php or any php based file
+```
+###### MyController.php or any php based file
+```html
  trans("your any texts here");
 ```
-
 ## Changelog ##
 
 ### 1.0 ###
