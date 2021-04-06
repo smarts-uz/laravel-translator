@@ -2,7 +2,9 @@
 
 use TeamPro\TranslateScanner\Models\Translation;
 use Illuminate\Support\Facades\App;
+
 if (! function_exists('t')) {
+
     function t($key, $lang = null){
         if($lang == null){
             $lang = App::getLocale()??'en';
